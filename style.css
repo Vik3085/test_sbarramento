@@ -1,0 +1,154 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg: #F5F5FB;
+    --side-bg: #FFFFFF;
+    --box-bg: #C4C4C4;
+    --border-radius:10px;
+}
+
+
+.container-generale {
+    width:100%;
+    height:100vh;
+    display:flex;
+}
+
+nav {
+    width:10%;
+    background-color: var(--side-bg);
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    width:60%;
+    background-color: var(--body-bg);
+    padding:20px;
+}
+
+aside {
+    width:30%;
+    background-color: var(--side-bg);
+    padding:20px;
+}
+
+.container-top {
+    width:100%;
+    height:50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.top-left {
+    width:20%;
+    height:20px;
+    background-color: var(--box-bg);
+}
+
+.top-right {
+    width:60%;
+    height:20px;
+    background-color: var(--box-bg);
+}
+
+
+.middle {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.middle-box {
+    width:100%;
+    height:20px;
+    margin-bottom:20px;
+    background-color: var(--box-bg);
+
+}
+
+.bottom {
+    border-radius:5px;
+    width:100%;
+    height:20%;
+    background-color: var(--box-bg);
+}
+
+header {
+
+    width:100%;
+    height:20%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.header-top-left {
+    width:50%;
+    height:20%;
+    background-color: var(--box-bg);
+
+}
+
+.header-top-right {
+    width:30%;
+    height:20%;
+    background-color: var(--box-bg);
+}
+
+.header-02 {
+
+    width:100%;
+    height:20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-middle-left {
+    width:20%;
+    height:20%;
+    background-color: var(--box-bg);
+}
+
+.header-middle-right {
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.box-middle {
+    width:30%;
+    height:20%;
+    background-color: var(--box-bg);
+}
+
+
+.center {
+width:100%;
+height:60%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.center-01 {
+    width:100%;
+    height:45%;
+    background-color: var(--box-bg);
+    border-radius: var(--border-radius);
+}
+
+
+.center-02 {
+    width:48%;
+    height:45%;
+    background-color: var(--box-bg);
+    border-radius: var(--border-radius);
+}
